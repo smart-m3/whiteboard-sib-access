@@ -1,0 +1,12 @@
+Source: whiteboard-sib-access
+Section: user/Multimedia
+Priority: optional
+Maintainer: Hannu Laine <hannu.e.laine@nokia.com>
+Build-Depends: debhelper (>= 4.0.0), libwhiteboard-dev (>= 2.0-beta1)
+Standards-Version: 3.6.0
+
+Package: whiteboard-sib-access
+Architecture: any
+Section: user/Multimedia
+Depends: libwhiteboard (>= 2.0-beta1), whiteboard (>= 2.0-beta1), ${shlibs:Depends}, ${misc:Depends}
+Description: Whiteboard SIB access module.
